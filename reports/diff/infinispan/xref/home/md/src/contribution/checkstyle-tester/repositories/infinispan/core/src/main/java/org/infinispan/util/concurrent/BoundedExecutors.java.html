@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>BoundedExecutors xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
+</head>
+<body>
+<pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> org.infinispan.util.concurrent;
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> java.util.concurrent.ExecutorService;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> java.util.concurrent.LinkedBlockingQueue;
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">import</strong> java.util.concurrent.ThreadFactory;
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <strong class="jxr_keyword">import</strong> java.util.concurrent.ThreadPoolExecutor;
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <strong class="jxr_keyword">import</strong> java.util.concurrent.TimeUnit;
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>  <em class="jxr_javadoccomment"> * Similar to JDK {@link java.util.concurrent.Executors} except that the factory methods here allow you to specify the</em>
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>  <em class="jxr_javadoccomment"> * size of the blocking queue that backs the executor.</em>
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>  <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  <em class="jxr_javadoccomment"> * @author Manik Surtani (&lt;a href="<a href="mailto:manik" target="alexandria_uri">mailto:manik</a> AT jboss DOT org"&gt;manik AT jboss DOT org&lt;/a&gt;)</em>
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_javadoccomment"> * @since 4.0</em>
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> BoundedExecutors {
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>  <em class="jxr_javadoccomment">    * Creates a thread pool that reuses a fixed set of threads operating off a shared bounded queue. If any thread</em>
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>  <em class="jxr_javadoccomment">    * terminates due to a failure during execution prior to shutdown, a new one will take its place if needed to execute</em>
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  <em class="jxr_javadoccomment">    * subsequent tasks.</em>
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  <em class="jxr_javadoccomment">    *</em>
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  <em class="jxr_javadoccomment">    * @param nThreads         the number of threads in the pool</em>
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>  <em class="jxr_javadoccomment">    * @param boundedQueueSize size of the bounded queue</em>
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  <em class="jxr_javadoccomment">    * @return the newly created thread pool</em>
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>  <em class="jxr_javadoccomment">    */</em>
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> ExecutorService newFixedThreadPool(<strong class="jxr_keyword">int</strong> nThreads, <strong class="jxr_keyword">int</strong> boundedQueueSize) {
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ThreadPoolExecutor(nThreads, nThreads,
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>                                      0L, TimeUnit.MILLISECONDS,
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>                                      <strong class="jxr_keyword">new</strong> LinkedBlockingQueue&lt;Runnable&gt;(boundedQueueSize));
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>     }
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>  <em class="jxr_javadoccomment">    * Creates a thread pool that reuses a fixed set of threads operating off a shared bounded queue, using the provided</em>
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  <em class="jxr_javadoccomment">    * ThreadFactory to create new threads when needed.</em>
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  <em class="jxr_javadoccomment">    *</em>
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  <em class="jxr_javadoccomment">    * @param nThreads         the number of threads in the pool</em>
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>  <em class="jxr_javadoccomment">    * @param threadFactory    the factory to use when creating new threads</em>
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>  <em class="jxr_javadoccomment">    * @param boundedQueueSize size of the bounded queue</em>
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>  <em class="jxr_javadoccomment">    * @return the newly created thread pool</em>
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>  <em class="jxr_javadoccomment">    */</em>
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> ExecutorService newFixedThreadPool(<strong class="jxr_keyword">int</strong> nThreads, ThreadFactory threadFactory, <strong class="jxr_keyword">int</strong> boundedQueueSize) {
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>        <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">new</strong> ThreadPoolExecutor(nThreads, nThreads,
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>                                      0L, TimeUnit.MILLISECONDS,
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>                                      <strong class="jxr_keyword">new</strong> LinkedBlockingQueue&lt;Runnable&gt;(boundedQueueSize),
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>                                      threadFactory);
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>     }
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  }
+</pre>
+<hr/>
+<div id="footer"></div>
+</body>
+</html>

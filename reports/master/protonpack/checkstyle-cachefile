@@ -1,0 +1,20 @@
+#Mon Apr 15 19:35:56 CEST 2019
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/SkipWhileTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/TakeWhileTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/MapStreamTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/NullableTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/StreamableTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/UnfoldTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/GroupRunsTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/NoCombinerTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/ZipTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/SeqTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/MergeTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/InterleaveTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/WindowedTest.java=1555349751000
+configuration*?=B8541C9C4CBB1E163EAB14494C1B4309881752F6
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/AggregateTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/MinMaxByProjectionTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/main/java/com/codepoetics/protonpack/selectors/Selector.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/test/java/com/codepoetics/protonpack/UniqueTest.java=1555349751000
+/home/md/src/contribution/checkstyle-tester/src/main/java/protonpack/src/main/java/com/codepoetics/protonpack/EmptySeq.java=1555349751000

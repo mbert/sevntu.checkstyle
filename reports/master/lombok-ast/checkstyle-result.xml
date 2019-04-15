@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.20-SNAPSHOT">
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java">
+<error line="5" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="11" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="11" column="60" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="17" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="19" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="23" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="29" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="32" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java">
+<error line="5" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="73" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="11" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="11" column="80" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="17" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="23" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I001_AnnotationsAndTypeParametersMethodDeclaration.java">
+<error line="2" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="3" column="20" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_AssertInner.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java">
+<error line="2" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="6" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="10" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="10" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="22" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="22" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="30" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="30" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="34" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="34" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="34" column="67" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="70" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="64" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="46" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="46" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="46" column="67" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="50" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="50" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="54" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="54" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="58" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="58" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="62" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="62" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="66" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="70" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="74" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="74" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="78" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="78" column="51" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="82" column="11" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="86" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="90" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="90" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="94" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="94" column="66" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E001_ConstructorDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/G002_ModifiersFieldDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C003_Casts.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/A003_EmptyStatements.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/B001_PrimitiveTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_While.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_Assert.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H005_SimpleConstructors.java">
+<error line="2" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H001_Interfaces.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C009_ArrayAccess.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_If.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C005_ArrayInitialization.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C007_ThisLiteral.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/A003_Initializers.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D001_BasicStatements.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D003_LabelledBreaksAndContinues.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C003_SimpleExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java">
+<error line="13" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="17" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="17" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="21" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="21" column="69" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C010_CombinedBinaryExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/B004_TypeVariables.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/A001_PackageAndImports.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H003_Annotations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E003_ThrowsConstructorDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_Label.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H002_Enums.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E006_TypeParametersOnGenericTypesMethodDeclaration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_Try.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/B003_ParameterizedTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D001_VariableDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_Do.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C004_ComplexExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/G001_SimpleFieldDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C006_Parens.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H006_ComplexConstructors.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C001_NumberLiterals.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_ForEach.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I001_ComplexAsserts1.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/A002_BasicEmptyClass.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/J001_ExplicitDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D001_VariableDeclarationsEclipseHasBugs.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I002_ConditionalExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E005_TypeParametersConstructorDeclaration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/G002_InitializedFieldDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/F001_Annotations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H004_MultiGenerics.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H007_SuperAndThisQualifier.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I002_ComplexAsserts2.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/B002_SimpleTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/package-info.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H008_SimpleMethods.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_Switch.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/ZComplex1.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/G003_MultipleFieldDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E002_ModifiersMethodDeclaration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C002_ExtremeIntegralLiterals.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_StandardFor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/A004_MultipleClasses.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/B005_ArrayTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/G004_AnonymousInnerClasses.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C003_StringConcatExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/D002_Synchronized.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I001_Deprecated.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E001_MethodDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C002_Parentheses.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E003_ThrowsMethodDeclaration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H010_Javadoc.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E005_TypeParametersMethodDeclaration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C008_ClassLiterals.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/C002_TextLiterals.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E002_ModifiersConstructorDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/PassthroughAssignmentInInlineIf.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/CastPlusUnary.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/ChainedMethodsWithSuper.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/LesserThanPlusComma.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/ExtensiveJavadoc.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/AnnotationsWithComments.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/AbstractMethodAndComment.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/ParenthesizedCast.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/ManyCommentsEclipseHasBugs.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/special/BackslashU.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/E007_ArrayMethodDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/A003_Initializers.1.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/B001_PrimitiveTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/A002_BasicEmptyClass.2.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/A002_BasicEmptyClass.3.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/C003_SimpleExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/B004_TypeVariables.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/A001_PackageAndImports.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/H003_Annotations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/B003_ParameterizedTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/C004_ComplexExpressions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/F001_Annotations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/B002_SimpleTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/ZComplex1.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/B005_ArrayTypes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/E001_MethodDeclarations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/A002_BasicEmptyClass.1.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/alias/A003_Initializers.2.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/performance/LongString.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/performance/ZLongComment.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/performance/LongIdentifier.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/performance/extra166y/PAS.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/performance/extra166y/AbstractParallelAnyArray.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java">
+<error line="1" severity="error" message="Got an exception - com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file /home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java.&#10;#x9;at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:103)&#10;#x9;at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:160)&#10;#x9;at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:85)&#10;#x9;at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:332)&#10;#x9;at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:294)&#10;#x9;at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:220)&#10;#x9;at org.apache.maven.plugins.checkstyle.exec.DefaultCheckstyleExecutor.executeCheckstyle(DefaultCheckstyleExecutor.java:248)&#10;#x9;at org.apache.maven.plugins.checkstyle.AbstractCheckstyleReport.executeReport(AbstractCheckstyleReport.java:463)&#10;#x9;at org.apache.maven.plugins.checkstyle.CheckstyleReport.executeReport(CheckstyleReport.java:57)&#10;#x9;at org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:255)&#10;#x9;at org.apache.maven.plugins.site.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:219)&#10;#x9;at org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.renderModule(DefaultSiteRenderer.java:319)&#10;#x9;at org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:135)&#10;#x9;at org.apache.maven.plugins.site.SiteMojo.renderLocale(SiteMojo.java:175)&#10;#x9;at org.apache.maven.plugins.site.SiteMojo.execute(SiteMojo.java:138)&#10;#x9;at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)&#10;#x9;at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)&#10;#x9;at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)&#10;#x9;at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)&#10;#x9;at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)&#10;#x9;at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)&#10;#x9;at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)&#10;#x9;at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)&#10;#x9;at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)&#10;#x9;at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)&#10;#x9;at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)&#10;#x9;at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)&#10;#x9;at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)&#10;#x9;at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)&#10;#x9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;#x9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;#x9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;#x9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)&#10;#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)&#10;#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)&#10;#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)&#10;Caused by: java.lang.IllegalStateException: /home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java:21:2: unexpected token: public&#10;#x9;at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:91)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:411)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:202)&#10;#x9;at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:97)&#10;#x9;... 36 more&#10;Caused by: /home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java:21:2: unexpected token: public&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:5506)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4276)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:3942)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3332)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:2542)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:634)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:556)&#10;#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:389)&#10;#x9;... 38 more&#10;" source="com.puppycrawl.tools.checkstyle.Checker"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/ConditionalExpressionsPrecedence.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/ListAccessorTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/resolve/TypesMatchTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/JcTreeBuilderTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/RunForEachFileInDirRunner.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/PerformanceTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/JavaCompilerTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/TreeBuilderRunner.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/JcTreeConverterType1Test.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/AlternativeStringConcatEcjTreeBuilderTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/ContentBasedJavaFileObject.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/ParboiledJavaGrammar.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/IntegralLiteralTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/EcjTreeBuilderTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/AliasTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/JcTreeConverterType2Test.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/PositionCheckingFormatter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/AlternativeStringConcatEcjTreeConverterType2Test.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/SyntaxCheckClearsOnIdempotencyTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/EcjTreeConverterType2Test.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/EcjCompilerTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/PositionTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/IdempotencyTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/grammar/EcjTreeConverterType1Test.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/src/lombok/ast/TemplateTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/printer/lombok/ast/printer/SourceFormatter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/printer/lombok/ast/printer/TextFormatter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/printer/lombok/ast/printer/StructureFormatter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/printer/lombok/ast/printer/HtmlFormatter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/printer/lombok/ast/printer/SourcePrinter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/javacTransformer/lombok/ast/javac/JcTreeBuilder.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/javacTransformer/lombok/ast/javac/JcTreePrinter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/javacTransformer/lombok/ast/javac/JcTreeConverter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/ecjTransformer/lombok/ast/ecj/GenerateEcjTreeVisitorCode.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/ecjTransformer/lombok/ast/ecj/EcjTreePrinter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/ecjTransformer/lombok/ast/ecj/EcjTreeOperations.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/ecjTransformer/lombok/ast/ecj/EcjTreeConverter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/ecjTransformer/lombok/ast/ecj/EcjTreeVisitor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/ecjTransformer/lombok/ast/ecj/EcjTreeBuilder.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/LiteralType.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/AbstractNode.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Node.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/RawListAccessor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/StrictListAccessor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Statement.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/SyntacticValidityVisitorBase.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/UnreachableStatementsChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/LiteralValidityChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/StructuralChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/TypeChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/StatementChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/MessageKey.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/KeywordChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/syntaxChecks/BasicChecks.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/JavadocContainer.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Message.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/AnnotationValue.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/UnaryOperator.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/TypeMember.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/FloatingPointLiteral.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Expression.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Position.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Templates.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Version.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/WildcardKind.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Template.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Literal.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/resolve/AnnotationProxy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/resolve/AnnotationClassNotAvailableException.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/resolve/Resolver.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/BasicsParser.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/ExpressionsParser.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/StatementsParser.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/BasicsActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/LiteralsActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/ParserGroup.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/StructuresActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/TemporaryNodes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/StructuresParser.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/TypesActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/ParseProblem.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/SourceActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/StatementsActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/ExpressionsActions.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/SourceStructure.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/LiteralsParser.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/Source.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/ProfilerParseRunner.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/grammar/TypesParser.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/BinaryOperator.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/NullLiteral.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/ForwardingAstVisitor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/TypeBody.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/AstException.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/Ast.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/ListAccessor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/AstVisitor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/DanglingNodes.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/MessageKey.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/DescribedNode.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/ConversionPositionInfo.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/TypeDeclaration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/IntegralLiteral.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/ResolutionException.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/app/EcjBugsNormalization.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/main/lombok/ast/app/Main.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/ForcedType.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/TemplateProcessor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/ParentAccessor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/Mandatory.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/NotChildOfNode.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/SyntaxValidityCheckerGenerator.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/package-info.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/GenerateAstNode.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/SyntaxCheck.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/src/template/lombok/ast/template/CopyMethod.java">
+</file>
+</checkstyle>

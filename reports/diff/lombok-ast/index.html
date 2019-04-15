@@ -1,0 +1,1714 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+										</td>
+										
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">Jsr305Annotations</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												packages
+												
+													<li>org,com</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ThrowsCount</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+								<th>Severity-error</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">0</td>
+							<td id="totalBase">0</td>
+							
+								<td id="warningSeverityNumBase">0</td>
+							
+								<td id="errorSeverityNumBase">0</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">225</td>
+							<td id="totalPatch">78</td>
+							
+								<td id="warningSeverityNumPatch">77</td>
+							
+								<td id="errorSeverityNumPatch">1</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">7</td>
+							<td id="totalDiff">78</td>
+							
+								<td id="warningSeverityNumDiff">77</td>
+							
+								<td id="errorSeverityNumDiff">1</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.Checker</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheckModuleNumBase">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumBase">0</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheckModuleNumPatch">77</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumPatch">1</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheckModuleNumDiff">77</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.CheckerModuleNumDiff">1</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">78</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L5">5</a></td>
+								
+								
+									
+									<td>52</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L8">8</a></td>
+								
+								
+									
+									<td>52</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L8">8</a></td>
+								
+								
+									
+									<td>73</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L11">11</a></td>
+								
+								
+									
+									<td>59</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L11">11</a></td>
+								
+								
+									
+									<td>80</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L14">14</a></td>
+								
+								
+									
+									<td>52</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L17">17</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L20">20</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L23">23</a></td>
+								
+								
+									
+									<td>52</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterConstructorDeclarations.java.html#L26">26</a></td>
+								
+								
+									
+									<td>49</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L5">5</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L8">8</a></td>
+								
+								
+									
+									<td>42</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L8">8</a></td>
+								
+								
+									
+									<td>63</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L11">11</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L11">11</a></td>
+								
+								
+									
+									<td>60</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L14">14</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L17">17</a></td>
+								
+								
+									
+									<td>28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L20">20</a></td>
+								
+								
+									
+									<td>19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L23">23</a></td>
+								
+								
+									
+									<td>39</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L26">26</a></td>
+								
+								
+									
+									<td>30</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L29">29</a></td>
+								
+								
+									
+									<td>41</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E004_ParameterMethodDeclarations.java.html#L32">32</a></td>
+								
+								
+									
+									<td>38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L2">2</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L6">6</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L10">10</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L10">10</a></td>
+								
+								
+									
+									<td>37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L14">14</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L14">14</a></td>
+								
+								
+									
+									<td>40</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L18">18</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L18">18</a></td>
+								
+								
+									
+									<td>22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L22">22</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L22">22</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L26">26</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L26">26</a></td>
+								
+								
+									
+									<td>33</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L30">30</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L30">30</a></td>
+								
+								
+									
+									<td>36</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L34">34</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L34">34</a></td>
+								
+								
+									
+									<td>46</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L34">34</a></td>
+								
+								
+									
+									<td>67</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L38">38</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L38">38</a></td>
+								
+								
+									
+									<td>49</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L38">38</a></td>
+								
+								
+									
+									<td>70</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L42">42</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L42">42</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L42">42</a></td>
+								
+								
+									
+									<td>64</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L46">46</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L46">46</a></td>
+								
+								
+									
+									<td>46</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L46">46</a></td>
+								
+								
+									
+									<td>67</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L50">50</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L50">50</a></td>
+								
+								
+									
+									<td>43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L54">54</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L54">54</a></td>
+								
+								
+									
+									<td>46</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L58">58</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L58">58</a></td>
+								
+								
+									
+									<td>32</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L62">62</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L62">62</a></td>
+								
+								
+									
+									<td>35</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L66">66</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L70">70</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L74">74</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L74">74</a></td>
+								
+								
+									
+									<td>48</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L78">78</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L78">78</a></td>
+								
+								
+									
+									<td>51</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L82">82</a></td>
+								
+								
+									
+									<td>11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L86">86</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L90">90</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L90">90</a></td>
+								
+								
+									
+									<td>63</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L94">94</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/E007_ArrayMethodDeclarations.java.html#L94">94</a></td>
+								
+								
+									
+									<td>66</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H005_SimpleConstructors.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H005_SimpleConstructors.java.html#L2">2</a></td>
+								
+								
+									
+									<td>29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java.html#L13">13</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java.html#L17">17</a></td>
+								
+								
+									
+									<td>25</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java.html#L17">17</a></td>
+								
+								
+									
+									<td>47</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java.html#L20">20</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java.html#L21">21</a></td>
+								
+								
+									
+									<td>63</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/H009_ComplexMethods.java.html#L21">21</a></td>
+								
+								
+									
+									<td>69</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I001_AnnotationsAndTypeParametersMethodDeclaration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>Return value must have nullness Annotation (@Nonnull or @CheckForNull)!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I001_AnnotationsAndTypeParametersMethodDeclaration.java.html#L2">2</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>Jsr305Annotations</td>
+								<td>No nullness Annotation for parameter definition found!</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/idempotency/I001_AnnotationsAndTypeParametersMethodDeclaration.java.html#L3">3</a></td>
+								
+								
+									
+									<td>20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>error</td>
+								<td>Checker</td>
+								<td>Got an exception - com.puppycrawl.tools.checkstyle.api.CheckstyleException: IllegalStateException occurred while parsing file /home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java.<br />
+#x9;at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:103)<br />
+#x9;at com.puppycrawl.tools.checkstyle.TreeWalker.processFiltered(TreeWalker.java:160)<br />
+#x9;at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:85)<br />
+#x9;at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:332)<br />
+#x9;at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:294)<br />
+#x9;at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:220)<br />
+#x9;at org.apache.maven.plugins.checkstyle.exec.DefaultCheckstyleExecutor.executeCheckstyle(DefaultCheckstyleExecutor.java:248)<br />
+#x9;at org.apache.maven.plugins.checkstyle.AbstractCheckstyleReport.executeReport(AbstractCheckstyleReport.java:463)<br />
+#x9;at org.apache.maven.plugins.checkstyle.CheckstyleReport.executeReport(CheckstyleReport.java:57)<br />
+#x9;at org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:255)<br />
+#x9;at org.apache.maven.plugins.site.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:219)<br />
+#x9;at org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.renderModule(DefaultSiteRenderer.java:319)<br />
+#x9;at org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:135)<br />
+#x9;at org.apache.maven.plugins.site.SiteMojo.renderLocale(SiteMojo.java:175)<br />
+#x9;at org.apache.maven.plugins.site.SiteMojo.execute(SiteMojo.java:138)<br />
+#x9;at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)<br />
+#x9;at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)<br />
+#x9;at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)<br />
+#x9;at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)<br />
+#x9;at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)<br />
+#x9;at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)<br />
+#x9;at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)<br />
+#x9;at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)<br />
+#x9;at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)<br />
+#x9;at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)<br />
+#x9;at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)<br />
+#x9;at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)<br />
+#x9;at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)<br />
+#x9;at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)<br />
+#x9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+#x9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+#x9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+#x9;at java.lang.reflect.Method.invoke(Method.java:498)<br />
+#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)<br />
+#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)<br />
+#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)<br />
+#x9;at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)<br />
+Caused by: java.lang.IllegalStateException: /home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java:21:2: unexpected token: public<br />
+#x9;at com.puppycrawl.tools.checkstyle.JavaParser$1.reportError(JavaParser.java:91)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:411)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compilationUnit(GeneratedJavaRecognizer.java:202)<br />
+#x9;at com.puppycrawl.tools.checkstyle.JavaParser.parse(JavaParser.java:97)<br />
+#x9;... 36 more<br />
+Caused by: /home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java:21:2: unexpected token: public<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.traditionalStatement(GeneratedJavaRecognizer.java:5506)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.statement(GeneratedJavaRecognizer.java:4276)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.compoundStatement(GeneratedJavaRecognizer.java:3942)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.field(GeneratedJavaRecognizer.java:3332)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classBlock(GeneratedJavaRecognizer.java:2542)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.classDefinition(GeneratedJavaRecognizer.java:634)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinitionInternal(GeneratedJavaRecognizer.java:556)<br />
+#x9;at com.puppycrawl.tools.checkstyle.grammar.GeneratedJavaRecognizer.typeDefinition(GeneratedJavaRecognizer.java:389)<br />
+#x9;... 38 more<br />
+</td>
+								
+									
+									<td><a href = "xref/home/md/src/contribution/checkstyle-tester/repositories/lombok-ast/test/resources/parseErrors/Bad1.java.html#L1">1</a></td>
+								
+								
+									<td> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

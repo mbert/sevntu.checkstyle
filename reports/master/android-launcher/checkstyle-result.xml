@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.20-SNAPSHOT">
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Folder.java">
+<error line="57" column="19" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="75" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="75" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="80" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="84" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="90" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="90" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="104" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="108" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="117" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="125" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="132" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="147" column="15" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DeleteZone.java">
+<error line="55" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="59" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="59" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="63" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="63" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="77" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="78" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="82" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="82" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="82" column="97" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="82" column="114" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="86" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="86" column="83" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="119" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="120" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="124" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="125" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="128" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="129" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="133" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="133" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="133" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="220" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="224" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="228" column="20" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragSource.java">
+<error line="26" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolderIcon.java">
+<error line="27" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="27" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="31" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="35" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="35" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="35" column="65" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="36" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/WallpaperChooser.java">
+<error line="84" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="84" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="116" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="116" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="144" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="150" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="158" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="166" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="166" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="166" column="61" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="189" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="202" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="202" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/ApplicationInfo.java">
+<error line="67" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="88" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragController.java">
+<error line="41" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="41" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="41" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="68" column="20" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="68" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="68" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/InstallShortcutReceiver.java">
+<error line="32" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="32" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="47" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="47" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="83" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="83" column="62" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherAppWidgetHostView.java">
+<error line="36" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="46" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Search.java">
+<error line="84" column="19" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="84" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="110" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="111" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="112" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="131" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="134" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="135" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="146" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="169" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="177" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="178" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="261" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="261" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="287" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="341" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolderAdapter.java">
+<error line="48" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="48" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="48" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="62" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="62" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="62" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="62" column="57" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="89" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="89" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="89" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="128" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="128" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="128" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="128" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherAppWidgetHost.java">
+<error line="30" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/BubbleTextView.java">
+<error line="47" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="52" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="52" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolder.java">
+<error line="35" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="35" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="39" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="39" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="39" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="45" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="73" column="15" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="106" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="110" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="110" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/CellLayout.java">
+<error line="62" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="66" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="66" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="70" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="70" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="239" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="240" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="257" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="257" column="87" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="258" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="295" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="295" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="312" column="79" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="321" column="76" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="330" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="330" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="330" column="58" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="354" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="354" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="394" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="420" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="559" column="8" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="560" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="560" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="608" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="608" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="620" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="633" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="646" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="670" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="681" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="682" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="705" column="12" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="723" column="69" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="723" column="82" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="800" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="800" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="806" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="863" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="918" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="949" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="953" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/UserFolderInfo.java">
+<error line="41" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Utilities.java">
+<error line="61" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="61" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="61" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="144" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="144" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="144" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherApplication.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherModel.java">
+<error line="109" column="64" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="158" column="55" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="163" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="173" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="173" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="198" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="198" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="234" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="234" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="268" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="268" column="79" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="269" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="269" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="278" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="278" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="293" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="293" column="51" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="312" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="312" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="313" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="336" column="51" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="337" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="337" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="367" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="367" column="66" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="368" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="397" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="397" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="397" column="76" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="398" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="414" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="414" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="425" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="425" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="425" column="61" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="443" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="443" column="64" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="444" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="444" column="67" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="445" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="467" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="467" column="83" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="468" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="468" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="491" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="559" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="591" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="599" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="599" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="612" column="45" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="651" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="651" column="72" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="709" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="709" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="709" column="60" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="730" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="993" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="993" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="994" column="58" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1027" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1031" column="20" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1039" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1039" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1054" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1054" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1083" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1102" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1114" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1138" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1160" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1161" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1174" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1182" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1191" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1199" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1206" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1213" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1213" column="55" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1213" column="79" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1214" column="55" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1237" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1237" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1237" column="66" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1285" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1285" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1294" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1302" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1302" column="58" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1316" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1316" column="53" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1338" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1338" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1338" column="66" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1352" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1352" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1399" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1399" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1422" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1422" column="55" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1436" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1436" column="57" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1446" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1446" column="71" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/HandleView.java">
+<error line="33" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="37" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="37" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="41" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="41" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="88" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Workspace.java">
+<error line="114" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="114" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="125" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="125" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="193" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="206" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="261" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="276" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="291" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="307" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="330" column="20" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="330" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="335" column="15" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="335" column="51" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="343" column="15" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="787" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="823" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="823" column="65" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="832" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="832" column="83" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="858" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="859" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="863" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="864" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="867" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="868" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="872" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="872" column="64" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="876" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="876" column="64" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="917" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="925" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="926" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="943" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="943" column="78" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="975" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="976" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="976" column="52" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="976" column="74" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="986" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="990" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="994" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1030" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1047" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1047" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1062" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1067" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1067" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1086" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1086" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1134" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1203" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1245" column="20" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1249" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1262" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1262" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1266" column="13" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragScroller.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Launcher.java">
+<error line="275" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="275" column="60" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="297" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="297" column="61" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="471" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="486" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="574" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="574" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="588" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="588" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="588" column="60" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="610" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="610" column="50" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="610" column="73" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="621" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="621" column="62" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="621" column="79" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="657" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="657" column="61" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="681" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="681" column="62" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="727" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="731" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="731" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="731" column="57" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="732" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="741" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="741" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="741" column="76" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="995" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="996" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1117" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1123" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1129" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1178" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1195" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1228" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1228" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1246" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1246" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1246" column="58" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1247" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1291" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1301" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1301" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1416" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1442" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1443" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1456" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1457" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1477" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1492" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1493" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1592" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1593" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1598" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1599" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1639" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1654" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1668" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1699" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1730" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1763" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1771" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1787" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1791" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1823" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1829" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1858" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1868" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1874" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1881" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1890" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1943" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1962" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1967" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="1979" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2048" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2157" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2157" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2208" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2208" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2209" column="17" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="2210" column="17" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/FolderInfo.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/ItemInfo.java">
+<error line="87" column="14" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="103" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="115" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="115" column="51" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/UserFolder.java">
+<error line="15" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="15" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="30" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="31" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="97" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="114" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="83" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="49" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="49" column="88" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="52" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="52" column="87" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="55" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="55" column="87" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="68" column="15" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/UninstallShortcutReceiver.java">
+<error line="33" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="33" column="44" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/ApplicationsAdapter.java">
+<error line="34" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="34" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolderInfo.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/FolderIcon.java">
+<error line="36" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="36" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="40" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="61" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="45" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="64" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="65" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="73" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="73" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="73" column="97" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="73" column="114" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="77" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="77" column="83" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="84" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="85" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="89" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="90" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="93" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="94" column="13" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragLayer.java">
+<error line="139" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="139" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="154" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="154" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="154" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="478" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="478" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="482" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="482" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="482" column="77" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="522" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="526" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="531" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="541" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="550" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/AddAdapter.java">
+<error line="52" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="63" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="85" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="85" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="85" column="57" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="104" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DropTarget.java">
+<error line="38" column="17" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="76" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="40" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="40" column="81" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="42" column="80" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="80" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="61" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="61" column="83" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/AllAppsGridView.java">
+<error line="40" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="45" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="48" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="48" column="45" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="101" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="101" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="106" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="106" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="120" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="124" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="127" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Widget.java">
+<error line="28" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/FastBitmapDrawable.java">
+<error line="28" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="70" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherSettings.java">
+<error line="121" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherProvider.java">
+<error line="169" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="186" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="251" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="288" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="288" column="55" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="389" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="462" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="535" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="535" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="554" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="614" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="614" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="614" column="81" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="615" column="17" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="615" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="640" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="640" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="640" column="78" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="676" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="676" column="60" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="686" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="686" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="725" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="725" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="725" column="56" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="741" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="741" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="741" column="51" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="757" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherAppWidgetInfo.java">
+</file>
+</checkstyle>

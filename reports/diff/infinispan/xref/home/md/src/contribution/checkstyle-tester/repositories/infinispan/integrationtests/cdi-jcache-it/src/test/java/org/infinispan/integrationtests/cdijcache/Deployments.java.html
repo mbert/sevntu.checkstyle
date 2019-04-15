@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Deployments xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
+</head>
+<body>
+<pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> org.infinispan.integrationtests.cdijcache;
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> org.infinispan.cdi.ConfigureCache;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> org.infinispan.cdi.event.AbstractEventBridge;
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">import</strong> org.infinispan.cdi.event.cache.CacheEventBridge;
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <strong class="jxr_keyword">import</strong> org.infinispan.cdi.event.cachemanager.CacheManagerEventBridge;
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <strong class="jxr_keyword">import</strong> org.infinispan.jcache.annotation.CachePutInterceptor;
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   <strong class="jxr_keyword">import</strong> org.jboss.shrinkwrap.api.ShrinkWrap;
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">import</strong> org.jboss.shrinkwrap.api.spec.JavaArchive;
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>  <strong class="jxr_keyword">import</strong> org.jboss.shrinkwrap.api.spec.WebArchive;
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>  
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>  <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  <em class="jxr_javadoccomment"> * Arquillian deployment utility class.</em>
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_javadoccomment"> *</em>
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment"> * @author Kevin Pollet &lt;kevin.pollet@serli.com&gt; (C) 2011 SERLI</em>
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">class</strong> Deployments {
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>     <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>  <em class="jxr_javadoccomment">    * The base deployment web archive. The CDI extension is packaged as an individual jar.</em>
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  <em class="jxr_javadoccomment">    */</em>
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>     <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> WebArchive baseDeployment() {
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>        <strong class="jxr_keyword">return</strong> ShrinkWrap.create(WebArchive.<strong class="jxr_keyword">class</strong>, <span class="jxr_string">"test.war"</span>)
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>              .addAsLibrary(
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>                    ShrinkWrap.create(JavaArchive.<strong class="jxr_keyword">class</strong>, <span class="jxr_string">"infinispan-cdi-jcache.jar"</span>)
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>                          .addPackage(ConfigureCache.<strong class="jxr_keyword">class</strong>.getPackage())
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>                          .addPackage(AbstractEventBridge.<strong class="jxr_keyword">class</strong>.getPackage())
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>                          .addPackage(CacheEventBridge.<strong class="jxr_keyword">class</strong>.getPackage())
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>                          .addPackage(CacheManagerEventBridge.<strong class="jxr_keyword">class</strong>.getPackage())
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>                          .addPackage(CachePutInterceptor.<strong class="jxr_keyword">class</strong>.getPackage())
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>                          .addAsManifestResource(ConfigureCache.<strong class="jxr_keyword">class</strong>.getResource(<span class="jxr_string">"/META-INF/beans.xml"</span>), <span class="jxr_string">"beans.xml"</span>)
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>                          .addAsManifestResource(ConfigureCache.<strong class="jxr_keyword">class</strong>.getResource(<span class="jxr_string">"/META-INF/services/javax.enterprise.inject.spi.Extension"</span>), <span class="jxr_string">"services/javax.enterprise.inject.spi.Extension"</span>)
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>              );
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>     }
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  }
+</pre>
+<hr/>
+<div id="footer"></div>
+</body>
+</html>

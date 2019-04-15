@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.20-SNAPSHOT">
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/Potion.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/HealingPotion.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/PoisonPotion.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/App.java">
+<error line="16" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/AlchemistShop.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/StrengthPotion.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/PotionType.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/PotionFactory.java">
+<error line="22" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="22" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/HolyWaterPotion.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/flyweight/src/main/java/com/iluwatar/InvisibilityPotion.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/UnitVisitor.java">
+<error line="10" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/Commander.java">
+<error line="10" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/Sergeant.java">
+<error line="10" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/Soldier.java">
+<error line="10" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/CommanderVisitor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/Unit.java">
+<error line="12" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="16" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/App.java">
+<error line="17" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/SoldierVisitor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/visitor/src/main/java/com/iluwatar/SergeantVisitor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/proxy/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/proxy/src/main/java/com/iluwatar/WizardTower.java">
+<error line="10" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/proxy/src/main/java/com/iluwatar/App.java">
+<error line="10" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/proxy/src/main/java/com/iluwatar/Wizard.java">
+<error line="7" column="23" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/proxy/src/main/java/com/iluwatar/WizardTowerProxy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/HeroFactory.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/OrcMage.java">
+<error line="8" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/ElfWarlord.java">
+<error line="8" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/ElfBeast.java">
+<error line="8" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/Beast.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/HeroFactoryImpl.java">
+<error line="14" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="60" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="28" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="36" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/Warlord.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/OrcBeast.java">
+<error line="8" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/App.java">
+<error line="12" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/ElfMage.java">
+<error line="8" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/Prototype.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/Mage.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/prototype/src/main/java/com/iluwatar/OrcWarlord.java">
+<error line="8" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/main/java/com/iluwatar/Messenger.java">
+<error line="9" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="32" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/main/java/com/iluwatar/LetterComposite.java">
+<error line="15" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/main/java/com/iluwatar/App.java">
+<error line="12" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/main/java/com/iluwatar/Letter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/main/java/com/iluwatar/Sentence.java">
+<error line="7" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/composite/src/main/java/com/iluwatar/Word.java">
+<error line="7" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/double-checked-locking/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/double-checked-locking/src/main/java/com/iluwatar/Inventory.java">
+<error line="19" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/double-checked-locking/src/main/java/com/iluwatar/App.java">
+<error line="15" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/double-checked-locking/src/main/java/com/iluwatar/Item.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/servant/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/servant/src/main/java/com/iluwatar/King.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/servant/src/main/java/com/iluwatar/Queen.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/servant/src/main/java/com/iluwatar/Servant.java">
+<error line="8" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="16" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="24" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/servant/src/main/java/com/iluwatar/Royalty.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/servant/src/main/java/com/iluwatar/App.java">
+<error line="16" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="24" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/decorator/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/decorator/src/main/java/com/iluwatar/Hostile.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/decorator/src/main/java/com/iluwatar/Troll.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/decorator/src/main/java/com/iluwatar/App.java">
+<error line="15" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/decorator/src/main/java/com/iluwatar/SmartTroll.java">
+<error line="14" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/Blacksmith.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="10" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/WeaponType.java">
+<error line="9" column="16" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/Weapon.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/App.java">
+<error line="12" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/OrcBlacksmith.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="10" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/ElfWeapon.java">
+<error line="7" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/OrcWeapon.java">
+<error line="7" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/factory-method/src/main/java/com/iluwatar/ElfBlacksmith.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="10" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/main/java/com/iluwatar/ItemIterator.java">
+<error line="12" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/main/java/com/iluwatar/TreasureChest.java">
+<error line="29" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="29" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="33" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/main/java/com/iluwatar/TreasureChestItemIterator.java">
+<error line="11" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="11" column="63" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/main/java/com/iluwatar/App.java">
+<error line="12" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/main/java/com/iluwatar/Item.java">
+<error line="8" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="22" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/iterator/src/main/java/com/iluwatar/ItemType.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/main/java/com/iluwatar/MultiplyExpression.java">
+<error line="8" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="9" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/main/java/com/iluwatar/Expression.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/main/java/com/iluwatar/MinusExpression.java">
+<error line="8" column="32" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/main/java/com/iluwatar/App.java">
+<error line="19" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="52" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="56" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="56" column="54" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="56" column="64" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/main/java/com/iluwatar/PlusExpression.java">
+<error line="8" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="58" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/interpreter/src/main/java/com/iluwatar/NumberExpression.java">
+<error line="11" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/test/java/com/iluwatar/FileSelectorPresenterTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/main/java/com/iluwatar/FileLoader.java">
+<error line="28" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="58" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="65" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/main/java/com/iluwatar/FileSelectorStub.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/main/java/com/iluwatar/FileSelectorPresenter.java">
+<error line="28" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="38" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/main/java/com/iluwatar/FileSelectorJFrame.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/main/java/com/iluwatar/MainApp.java">
+<error line="20" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/model-view-presenter/src/main/java/com/iluwatar/FileSelectorView.java">
+<error line="30" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="35" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="43" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="48" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="56" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="64" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/LordBaelish.java">
+<error line="14" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/KingsHand.java">
+<error line="15" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/EventEmitter.java">
+<error line="19" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="24" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="28" column="40" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="34" column="41" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/EventObserver.java">
+<error line="10" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/Scout.java">
+<error line="14" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/Weekday.java">
+<error line="9" column="17" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="13" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/App.java">
+<error line="18" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/Event.java">
+<error line="14" column="15" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/KingJoffrey.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/event-aggregator/src/main/java/com/iluwatar/LordVarys.java">
+<error line="14" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/main/java/com/iluwatar/DwarvenCartOperator.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/main/java/com/iluwatar/DwarvenTunnelDigger.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/main/java/com/iluwatar/DwarvenGoldmineFacade.java">
+<error line="40" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="40" column="86" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/main/java/com/iluwatar/App.java">
+<error line="11" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/main/java/com/iluwatar/DwarvenMineWorker.java">
+<error line="26" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="49" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="57" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/facade/src/main/java/com/iluwatar/DwarvenGoldDigger.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/memento/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/memento/src/main/java/com/iluwatar/StarMemento.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/memento/src/main/java/com/iluwatar/StarMementoInternal.java">
+<error line="14" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/memento/src/main/java/com/iluwatar/App.java">
+<error line="14" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/memento/src/main/java/com/iluwatar/StarType.java">
+<error line="9" column="14" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/memento/src/main/java/com/iluwatar/Star.java">
+<error line="14" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="45" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="55" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/HairColor.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/Hero.java">
+<error line="17" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="21" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="25" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="29" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="33" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="37" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="72" column="22" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="95" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="95" column="59" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="104" column="17" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="104" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="109" column="17" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="109" column="50" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="114" column="17" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="114" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="119" column="17" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="119" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="124" column="17" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/Armor.java">
+<error line="9" column="11" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/Weapon.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/HairType.java">
+<error line="9" column="14" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/App.java">
+<error line="20" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/builder/src/main/java/com/iluwatar/Profession.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/state/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/state/src/main/java/com/iluwatar/PeacefulState.java">
+<error line="12" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/state/src/main/java/com/iluwatar/Mammoth.java">
+<error line="24" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/state/src/main/java/com/iluwatar/AngryState.java">
+<error line="12" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/state/src/main/java/com/iluwatar/App.java">
+<error line="14" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/state/src/main/java/com/iluwatar/State.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/adapter/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/adapter/src/main/java/com/iluwatar/GoblinGlider.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/adapter/src/main/java/com/iluwatar/GnomeEngineer.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/adapter/src/main/java/com/iluwatar/Engineer.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/adapter/src/main/java/com/iluwatar/App.java">
+<error line="17" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/adapter/src/main/java/com/iluwatar/GnomeEngineeringManager.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/SoulEatingMagicWeaponImp.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/Mjollnir.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/Stormbringer.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/FlyingMagicWeapon.java">
+<error line="5" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="9" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/FlyingMagicWeaponImp.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/BlindingMagicWeaponImp.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/MagicWeapon.java">
+<error line="12" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="22" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/MagicWeaponImp.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/SoulEatingMagicWeapon.java">
+<error line="5" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/Excalibur.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/App.java">
+<error line="12" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/bridge/src/main/java/com/iluwatar/BlindingMagicWeapon.java">
+<error line="5" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/Hunter.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/PartyMember.java">
+<error line="10" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="18" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/PartyImpl.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/Rogue.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/Party.java">
+<error line="10" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="18" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="37" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/Action.java">
+<error line="19" column="12" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="19" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="24" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="28" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/Hobbit.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/App.java">
+<error line="11" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/Wizard.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/mediator/src/main/java/com/iluwatar/PartyMemberBase.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/main/java/com/iluwatar/MeleeStrategy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/main/java/com/iluwatar/SpellStrategy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/main/java/com/iluwatar/ProjectileStrategy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/main/java/com/iluwatar/App.java">
+<error line="11" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/main/java/com/iluwatar/DragonSlayingStrategy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/strategy/src/main/java/com/iluwatar/DragonSlayer.java">
+<error line="12" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="16" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/OrcSoldier.java">
+<error line="5" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/OrcOfficer.java">
+<error line="5" column="27" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/Request.java">
+<error line="8" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="8" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="13" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="17" column="43" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="21" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="25" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/RequestType.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/OrcKing.java">
+<error line="20" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/RequestHandler.java">
+<error line="7" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="11" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="17" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/App.java">
+<error line="13" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/chain/src/main/java/com/iluwatar/OrcCommander.java">
+<error line="5" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/main/java/com/iluwatar/InitContext.java">
+<error line="18" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="26" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/main/java/com/iluwatar/Service.java">
+<error line="17" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/main/java/com/iluwatar/ServiceLocator.java">
+<error line="21" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="21" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/main/java/com/iluwatar/ServiceCache.java">
+<error line="28" column="5" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="28" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="44" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/main/java/com/iluwatar/ServiceImpl.java">
+<error line="15" column="24" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/service-locator/src/main/java/com/iluwatar/App.java">
+<error line="10" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/Goblin.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/Size.java">
+<error line="14" column="10" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/Command.java">
+<error line="10" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/InvisibilitySpell.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/Target.java">
+<error line="14" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="22" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="35" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/App.java">
+<error line="12" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/Wizard.java">
+<error line="12" column="31" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="48" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/Visibility.java">
+<error line="14" column="16" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/command/src/main/java/com/iluwatar/ShrinkSpell.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/King.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/OrcKingdomFactory.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/ElfCastle.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/Castle.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/Army.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/ElfKingdomFactory.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="18" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/KingdomFactory.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/ElfArmy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/OrcKing.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/OrcArmy.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/ElfKing.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/App.java">
+<error line="15" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="42" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/abstract-factory/src/main/java/com/iluwatar/OrcCastle.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/null-object/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/null-object/src/main/java/com/iluwatar/Node.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="13" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/null-object/src/main/java/com/iluwatar/NullNode.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/null-object/src/main/java/com/iluwatar/NodeImpl.java">
+<error line="14" column="25" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="38" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="49" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/null-object/src/main/java/com/iluwatar/App.java">
+<error line="16" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/template-method/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/template-method/src/main/java/com/iluwatar/StealingMethod.java">
+<error line="10" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="12" column="47" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="14" column="46" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/template-method/src/main/java/com/iluwatar/SubtleMethod.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/template-method/src/main/java/com/iluwatar/HitAndRunMethod.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/template-method/src/main/java/com/iluwatar/App.java">
+<error line="14" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/template-method/src/main/java/com/iluwatar/HalflingThief.java">
+<error line="12" column="30" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="20" column="34" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/main/java/com/iluwatar/ThreadSafeDoubleCheckLocking.java">
+<error line="26" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/main/java/com/iluwatar/InitializingOnDemandHolderIdiom.java">
+<error line="25" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="32" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/main/java/com/iluwatar/EnumIvoryTower.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/main/java/com/iluwatar/ThreadSafeLazyLoadedIvoryTower.java">
+<error line="17" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/main/java/com/iluwatar/App.java">
+<error line="19" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/singleton/src/main/java/com/iluwatar/IvoryTower.java">
+<error line="17" column="9" severity="warning" message="Return value must have nullness Annotation (@Nonnull or @CheckForNull)!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/test/java/com/iluwatar/AppTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/generic/Race.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/generic/Observer.java">
+<error line="5" column="17" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="5" column="28" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/generic/GWeather.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/generic/Observable.java">
+<error line="21" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/generic/GOrcs.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/generic/GHobbits.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/Weather.java">
+<error line="22" column="33" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+<error line="26" column="36" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/Orcs.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/WeatherObserver.java">
+<error line="10" column="21" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/App.java">
+<error line="15" column="39" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/WeatherType.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/java-design-patterns/observer/src/main/java/com/iluwatar/Hobbits.java">
+</file>
+</checkstyle>
