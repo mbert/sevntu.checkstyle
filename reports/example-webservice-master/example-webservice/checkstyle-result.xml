@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.20-SNAPSHOT">
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/test/java/org/example/webservice/api/ping/PingTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/test/java/org/example/common/util/DateUtilTest.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/test/java/org/example/common/util/TestConfiguration.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/main/java/org/example/webservice/application/WebserviceApplication.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/main/java/org/example/webservice/service/PingService.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/main/java/org/example/webservice/service/impl/PingServiceImpl.java">
+<error line="79" column="29" severity="warning" message="No nullness Annotation for parameter definition found!" source="com.github.sevntu.checkstyle.checks.coding.Jsr305AnnotationsCheck"/>
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/main/java/org/example/webservice/service/impl/Beatle.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/main/java/org/example/webservice/api/PingController.java">
+</file>
+<file name="/home/md/src/contribution/checkstyle-tester/repositories/example-webservice/src/main/java/org/example/common/util/DateUtil.java">
+</file>
+</checkstyle>

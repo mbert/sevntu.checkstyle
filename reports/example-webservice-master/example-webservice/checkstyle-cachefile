@@ -1,0 +1,10 @@
+#Wed Apr 17 10:45:22 CEST 2019
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/test/java/org/example/webservice/api/ping/PingTest.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/main/java/org/example/webservice/service/PingService.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/test/java/org/example/common/util/DateUtilTest.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/main/java/org/example/common/util/DateUtil.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/main/java/org/example/webservice/application/WebserviceApplication.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/main/java/org/example/webservice/api/PingController.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/test/java/org/example/common/util/TestConfiguration.java=1555490717000
+/home/md/src/contribution/checkstyle-tester/src/main/java/example-webservice/src/main/java/org/example/webservice/service/impl/Beatle.java=1555490717000
+configuration*?=B8541C9C4CBB1E163EAB14494C1B4309881752F6
